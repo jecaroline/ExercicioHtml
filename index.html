@@ -2,176 +2,47 @@
 
 <html>
     <head>
-      <title>Jéssica Caroline</title> 
-        <img style="margin-left: 50%;"
-         src="https://i.pinimg.com/originals/c3/6f/ca/c36fca62c21bda1817730dbf7e796a1c.jpg"
-        width="100"
-        height="100"
-      />
-      
+      <title>Jéssica Caroline</title>     
       <meta charset=" UTF-8">
+      <link rel="stylesheet" type="text/css" href="estilo.css"/>
     </head>
 
     <body>
-        <h1 style="text-align: center;">Currículo de <b>Jéssica Caroline</b></h1></br>
+        <div class="divImagem">
+            <img class="divImagem" 
+            src="https://i.pinimg.com/originals/c3/6f/ca/c36fca62c21bda1817730dbf7e796a1c.jpg"
+            />
+        </div> 
 
-            <label for= "identificacao"><b> Identificação:</b></label>
-            <a href="https://www.linkedin.com/login/pt">Link para o perfil Linkedin</a></br></br>         
-            <label for= "endereco"> <b>Endereço:</b> </label>
-            <a href="https://www.google.com.br/maps/place/R.+J%C3%BAlio+Heiden,+104+-+Progresso,+Blumenau+-+SC,+89026-260/@-26.9658962,-49.075839,17z/data=!3m1!4b1!4m5!3m4!1s0x94df183707377e3b:0xed9fd806fdc0b304!8m2!3d-26.965901!4d-49.0736503">Link para o endereço</a></br></br>
-            <label for= "formacao"> <b>Formação Acadêmica:</b> Cursando superior em Análise e Desenvolvimento de Sistemas - 4º Semestre </label></br></br>
-            <label for= "atuacao">  <b>Atuação Profissional:</b> Setor de Qualidade - SCI Sitemas Contábeis - 2020</label></br></br>
-            <label for= "idioma"> <b>Idiomas:</b> Inglês básico</label></br></br>
-            <br>
+        <div class="divHref">
+            <a href = "#identificascao">Identificação</a>  
+            <a href = "#endereco">Endereço</a> 
+            <a href = "#formacao">Formação Acadêmica</a> 
+            <a href = "#atuacao">Atuação Profissional</a> 
+            <a href = "#idiomas">Idiomas</a>
+        </div>
 
-            <form>
 
-                <label for="contato"><i>Entrar em contato:</i><br><br>
-                <label for= "Nome"> <b>Nome:</b></label>
-                <input type="text" id="nome"  name="nome"/> </br><br>
 
-                <label for= "email"> <b>E-mail:</b></label>
-                <input type="text" id="email"  name="email"/> </br><br>
+        <div class="div">
 
-                 <textarea name="observacao" id="observacao" cols="100" rows="15">Mensagem</textarea>
-            </form>
-            <br><br><br><br><br><br><br><br><br>
-
+ 
             
-            <form>
-                <label for= "formulario"> <b>Formulário</b></label></br></br>
-                <label for= "Nome"> <b>Nome:</b></label>
-                <input type="text" id="nome"  name="nome" size="100" /> </br>
+            <h1 style="text-align: center;"class="destaque">Currículo de <b>Jéssica Caroline</b></h1></br>
+
+                <h3 id="#identificacao"><b> Identificação:</b></h3>
+                <label for= "data"> <b>Data de Nascimento:</b> 26/05/1998 </label></br></br>
+                <a href="https://www.linkedin.com/login/pt">Link para o perfil Linkedin</a></br></br>         
+                <h3 id="endereco">Endereço:</b> </h3>
+                <a href="https://www.google.com.br/maps/place/R.+J%C3%BAlio+Heiden,+104+-+Progresso,+Blumenau+-+SC,+89026-260/@-26.9658962,-49.075839,17z/data=!3m1!4b1!4m5!3m4!1s0x94df183707377e3b:0xed9fd806fdc0b304!8m2!3d-26.965901!4d-49.0736503">Link para o endereço</a></br></br>
+                <h3 id="#formacao">Formação Acadêmica:</b> </h3>
+                <label for= "formacao">Cursando superior em Análise e Desenvolvimento de Sistemas - 4º Semestre</label></br></br>
+                <h3 id="#atuacao">Atuação Profissional:</h3>
+                <label for="atuacao">Setor de Qualidade - SCI Sitemas Contábeis - 2020 </label> </br>
+                <h3 id="#idiomas"><b>Idiomas:</b></h3>
+                <label for="idiomas"> Inglês básico</label></br></br>
                 <br>
-
-                <label for= "email"> <b>E-mail:</b></label>
-                <input type="text" id="email"  name="email" size="50"/> </br>
-                <br>
-
-                <input type="radio" name="genero" value="Masculino" checked>Masculino</input>
-                <input type="radio" name="genero" value="Feminino" checked>Feminino</input>
-                
-                <br><br>
-
-                <label for= "logradouro"> <b>Logradouro:</b></label>
-                <input type="text" id="logradouro"  name="logradouro" size="93"/> </br>
-                <br>
-
-                <label for= "numero"> <b>Número:</b></label>
-                <input type="text" id="numero"  name="numero" size="10"/> </br>
-                <br>
-
-                <label for= "complemento"> <b>Complemento:</b></label>
-                <input type="text" id="complemento"  name="complemento" size="23"/> </br>
-                <br>
-
-                <label for= "cidade"> <b>Cidade:</b></label>
-                <input type="text" id="cidade"  name="cidade" size="30"/> </br>
-                <br>
-
-                <label for= "bairro"> <b>Bairro:</b></label>
-                <input type="text" id="bairro"  name="bairro" size="30"/> </br>
-                <br>
-
-                <label for= "cep"> <b>CEP:</b></label>
-                <input type="text" id="cep"  name="cep" size="15"/> </br>
-                <br>
-
-                <label for= "telefone"> <b>Telefone:</b></label>
-                <input type="text" id="telefone"  name="telefone" size="30"/> </br>
-                <br>
-
-                <label for= "dataNascimento"> <b>Data de Nascimento:</b></label>
-                <input type="date" name="dataNascimento"/>
-
-                <br><br>
-
-                <input type="submit" value="Salvar">              
-            </form>
-
-            <br><br><br><br><br><br><br><br><br>
-
-            <label for= "tabelas"> <b>Tabelas</b></label></br>
-
-            <table border="1">                
-                <tr>
-                        <th colspan="2">Nome</th> 
-                        <th></th> 
-                </tr>
-        
-                <tr>
-                    <td>Jéssica </td> 
-                    <td>Caroline</td>
-                    <td>Teste</td> 
-                </tr>
-
-                <tr>
-                    <td>Jéssica </td> 
-                    <td>Caroline</td>
-                    <td>Teste</td> 
-                </tr>
-
-                <tr>
-                    <td>Jéssica </td> 
-                    <td>Caroline</td>
-                    <td>Teste</td> 
-                </tr>
-
-                <tr>
-                    <td>Jéssica </td> 
-                    <td>Caroline</td>
-                    <td>Teste</td> 
-                </tr>
-
-                <tr>
-                    <td>Jéssica </td> 
-                    <td>Caroline</td>
-                    <td>Teste</td> 
-                </tr>
-
-            </table>
-        </br></br></br></br>
-
-        <table border="1">
-
-            <tr>
-                <td rowspan="3">TESTES</td>
-                <td>teste</td>
-                <td>teste</td>    
-            </tr>
-
-            <tr>
-                <td>teste</td>
-                <td>teste</td>    
-            </tr>
-
-            <tr>
-                <td>teste</td>
-                <td>teste</td> 
-            </tr>
-
-            <tr>
-                <td>teste</td>
-                <td>teste</td>
-                <td>teste</td> 
-            </tr>
-
-            <tr>
-                <td>teste</td>
-                <td>teste</td>
-                <td>teste</td>
-            </tr>
-
-
-        </table>
-
-
-
-
+        </div>
     </body>
 
-
-
-
-
-</html>
+            
